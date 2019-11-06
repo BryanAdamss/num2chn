@@ -36,7 +36,12 @@
     "semantic-release": "semantic-release",
     "semantic-release-prepare": "ts-node tools/semantic-release-prepare",
     "precommit": "lint-staged",
-    "travis-deploy-once": "travis-deploy-once"
+    "travis-deploy-once": "travis-deploy-once",
+    "release": "standard-version",
+    "release:first": "npm run release --first-release",
+    "publish2Npm": "git push --follow-tags origin master && npm publish --access=public",
+    "setNpmOrigin": "npm config set registry https://registry.npmjs.org/",
+    "setTbOrigin": "npm config set registry https://registry.npm.taobao.org/"
   },
   "lint-staged": {
     "{src,test}/**/*.ts": [
@@ -113,6 +118,7 @@
     "rollup-plugin-typescript2": "^0.18.0",
     "semantic-release": "^15.9.16",
     "shelljs": "^0.8.3",
+    "standard-version": "^7.0.0",
     "travis-deploy-once": "^5.0.9",
     "ts-jest": "^23.10.2",
     "ts-node": "^7.0.1",
