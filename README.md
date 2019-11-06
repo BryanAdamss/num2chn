@@ -1,6 +1,6 @@
 # num2chn
 
-> 🎨 Javascript drawing board based on canvas
+> 🚄 Convert numbers to Chinese
 
 ---
 ![NPM](https://img.shields.io/npm/l/@bryanadamss/num2chn)
