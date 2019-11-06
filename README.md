@@ -49,7 +49,7 @@ Num2Chn(options)
  
 ```
 - `methods`
-- 😘Most of the scenes, you only need to use `instance.transform()` method
+- 😂Most of the scenes, you only need to use `instance.transform()` method
 ```typescript
   /**
    * 获取数字对应中文
