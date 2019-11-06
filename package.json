@@ -2,7 +2,10 @@
   "name": "@bryanadamss/num2chn",
   "version": "1.0.0",
   "description": "Convert numbers to Chinese",
-  "keywords": [],
+  "keywords": [
+    "num2chn",
+    "convert number"
+  ],
   "main": "dist/num2chn.umd.js",
   "module": "dist/num2chn.esm.js",
   "unpkg": "dist/num2chn.umd.js",
@@ -13,7 +16,7 @@
   "author": "BryanAdamss <BryanAdamss@foxmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/BryanAdamss/num2chn.git"
   },
   "license": "MIT",
   "engines": {
